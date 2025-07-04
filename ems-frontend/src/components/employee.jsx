@@ -140,7 +140,7 @@ const Employee = () => {
                 <label>Email:</label>
                 <input
                  type="text" 
-                 placeholder="Enter Employee Email"  name="Email"
+                 placeholder="Enter Employee Email"  name="email"
                  value={email}
                  className={`form-control ${errors.email ? 'is-invalid' : ''}`}
                  onChange={ (e) =>setEmail(e.target.value)
